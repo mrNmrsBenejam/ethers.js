@@ -9,8 +9,10 @@ import { defineProperties } from "./properties.js";
 
 /**
  *  A callback function called when a an event is triggered.
- */
-export type Listener = (...args: Array<any>) => void;
+ */async (params:type) => {
+    
+   export
+ } type Listener = (...args: Array<any>) => void;
 
 /**
  *  An **EventEmitterable** behaves similar to an EventEmitter
